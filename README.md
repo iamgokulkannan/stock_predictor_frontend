@@ -31,18 +31,19 @@ In your code, you can use:
 const BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
 ------------------------------------------------------------
+## 📁 Project Structure
 
-📁 Project Structure (Example)
-
+```
 .
 ├── public/
 │   └── index.html
 ├── src/
 │   ├── App.jsx                   --> Main app logic and routing
 │   └── index.jsx                 --> React DOM render
-├── .env                         --> Environment config
-├── package.json                 --> NPM dependencies
+├── .env                          --> Environment config
+├── package.json                  --> NPM dependencies
 └── README.md
+```
 
 ------------------------------------------------------------
 
