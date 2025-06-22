@@ -40,3 +40,132 @@
 .read-the-docs {
   color: #888;
 }
+
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f9fc;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  color: #111;
+}
+
+.container.dark {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.toggle-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-btn:hover {
+  background: #0056b3;
+}
+
+.dropdown {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red;
+}
+
+.sentiment {
+  font-weight: bold;
+}
+
+.sentiment.positive {
+  color: green;
+}
+
+.sentiment.negative {
+  color: red;
+}
+
+.sentiment.neutral {
+  color: gray;
+}
+
+.chart {
+  margin-top: 2rem;
+}
+
+.tv-container {
+  margin-top: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.news {
+  text-align: left;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.container.dark .news {
+  background: #1f1f1f;
+}
+
+.news h3 {
+  margin-bottom: 0.8rem;
+}
+
+.news ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.news li {
+  margin-bottom: 0.6rem;
+}
+
+.news a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.news a:hover {
+  text-decoration: underline;
+}
+
+.recommend.buy {
+  color: green;
+  font-weight: bold;
+}
+.recommend.sell {
+  color: red;
+  font-weight: bold;
+}
+.recommend.hold {
+  color: orange;
+  font-weight: bold;
+}

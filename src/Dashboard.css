@@ -1,0 +1,97 @@
+.dashboard-container {
+    padding: 30px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  .search-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dashboard-table th,
+  .dashboard-table td {
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+  }
+  
+  .dashboard-table th {
+    background-color: #e9ecef;
+    color: #495057;
+  }
+
+  .stats {
+    margin-bottom: 40px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .stats ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16px;
+  }
+  
+  .stats li {
+    margin: 6px 0;
+    font-size: 16px;
+  }
+
+  .dashboard-container {
+    padding: 20px;
+    font-family: 'Arial';
+  }
+  
+  .search-input {
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dashboard-table th,
+  .dashboard-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .accuracy-summary {
+    margin-bottom: 30px;
+  }
+  
+  .accuracy-summary ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .accuracy-summary li {
+    font-size: 16px;
+    margin: 4px 0;
+  }
