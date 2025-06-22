@@ -38,10 +38,8 @@ const BASE_URL = process.env.REACT_APP_API_BASE_URL;
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── components/              --> Reusable components (e.g., Chart, InputForm)
-│   ├── pages/                   --> Page-level components
-│   ├── App.js                   --> Main app logic and routing
-│   └── index.js                 --> React DOM render
+│   ├── App.jsx                   --> Main app logic and routing
+│   └── index.jsx                 --> React DOM render
 ├── .env                         --> Environment config
 ├── package.json                 --> NPM dependencies
 └── README.md
